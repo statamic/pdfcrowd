@@ -31,8 +31,12 @@ Generate and download a PDF from a URL.  You can use a `url` parameter of a sing
 {{ /pdfcrowd:generate }}
 ```
 
-_Note: This tag will trigger a download of the PDF. The actual template will not be rendered. For example, you'll
-probaly want to do something like `<a href="/url/of/page/containing/pdfcrowd/tag">Download PDF</a>`._
+_Notes:_
+
+This tag will trigger a download of the PDF. The actual template will not be rendered. For example, you'll
+probably want to do something like `<a href="/url/of/page/containing/pdfcrowd/tag">Download PDF</a>`.
+
+The URL must be publicly accessible so that PDFcrowd can view it.
 
 ## Configuration
 You may configure the settings for your PDFs by adding items to your `site/addons/pdfcrowd.yaml` file.
