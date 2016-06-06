@@ -1,4 +1,4 @@
-# PDFcrowd
+# PDFcrowd ![Statamic 2.0](https://img.shields.io/badge/statamic-2.0-blue.svg?style=flat-square)
 
 > Generate and download PDFs based on HTML and CSS using [PDFcrowd][pdfcrowd].
 
