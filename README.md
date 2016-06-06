@@ -7,6 +7,7 @@
 - Sign up for [PDFcrowd][pdfcrowd].
 - Install the addon by copying the contents of this repo to `site/addons/Pdfcrowd`.
 - Create a `site/settings/addons/pdfcrowd.yaml` file and add your username and API key:
+
   ```
   username: username_here
   api_key: api_key_here
